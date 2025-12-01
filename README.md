@@ -22,10 +22,8 @@ The original gistpad-mcp is feature-rich but provides 27+ tools, which floods MC
 **Claude Code:**
 
 ```bash
-claude mcp add github-gist -- npx -y github-gist-mcp-minimal
+claude mcp add github-gist --scope user --env GITHUB_TOKEN=ghp_xxxxxxxxxxxx -- npx -y github-gist-mcp-minimal
 ```
-
-Then set your GitHub token as an environment variable or add it to your config.
 
 **Other MCP clients:**
 
