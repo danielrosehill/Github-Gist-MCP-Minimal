@@ -6,7 +6,7 @@ Forked from [gistpad-mcp](https://github.com/lostintangent/gistpad-mcp) by losti
 
 ## Why This Fork?
 
-The original gistpad-mcp is feature-rich but provides 27+ tools, which floods MCP context. This minimal fork reduces it to just 4 core operations:
+The original gistpad-mcp is excellent and feature-rich with 27+ tools for full gist management. This fork is a pared-down alternative for users who only need basic gist operations and want to minimize MCP context usage. It reduces the toolset to just 4 core operations:
 
 - Create private gists
 - Create public gists (with auto-appended verification notice)
