@@ -17,7 +17,17 @@ The original gistpad-mcp is feature-rich but provides 27+ tools, which floods MC
 
 1. Generate a GitHub personal access token with the `gist` scope: https://github.com/settings/tokens/new
 
-2. Add to your MCP client config:
+2. Add to your MCP client:
+
+**Claude Code:**
+
+```bash
+claude mcp add github-gist -- npx -y github-gist-mcp-minimal
+```
+
+Then set your GitHub token as an environment variable or add it to your config.
+
+**Other MCP clients:**
 
 ```json
 {
