@@ -1,19 +1,19 @@
 {
-  "name": "gistpad-mcp",
-  "version": "0.4.8",
-  "description": "An MCP server for managing your personal knowledge, daily notes, and reusable prompts via GitHub Gists.",
+  "name": "github-gist-mcp-minimal",
+  "version": "0.1.0",
+  "description": "A minimal MCP server for creating and managing GitHub Gists. Forked from gistpad-mcp by lostintangent.",
   "type": "module",
   "bin": {
-    "gistpad-mcp": "./build/index.js"
+    "github-gist-mcp-minimal": "./build/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lostintangent/gistpad-mcp"
+    "url": "https://github.com/danielrosehill/Github-Gist-MCP-Minimal"
   },
   "bugs": {
-    "url": "https://github.com/lostintangent/gistpad-mcp/issues"
+    "url": "https://github.com/danielrosehill/Github-Gist-MCP-Minimal/issues"
   },
-  "homepage": "https://github.com/lostintangent/gistpad-mcp#readme",
+  "homepage": "https://github.com/danielrosehill/Github-Gist-MCP-Minimal#readme",
   "license": "MIT",
   "files": [
     "build"
